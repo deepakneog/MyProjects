@@ -1,1 +1,1 @@
-# MyProjects
+As a part of my college project , I worked on a Online Bus Reservation Portal where people can view, manage, book or cancel tickets. For the front-end, I used HTML, CSS, JavaScript, jQuery and Bootstrap. And for the back-end, I used PHP and MySql.
