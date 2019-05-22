@@ -5,11 +5,11 @@
 	//Unset the variables stored in session
 	unset($_SESSION['SESS_MEMBER_ID']);
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Welcome to James Buchanan Pub and Restaurant</title>
+<title></title>
 <link rel="stylesheet" type="text/css" href="xres/css/style.css" />
 <link rel="icon" type="image/png" href="xres/images/favicon.png" />
 <!--[if IE 6]><style type="text/css"> * html img { behavior: url("xres/iepngfix.htc") }</style><![endif]-->
@@ -25,25 +25,6 @@
         <link href="css/datepicker.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript">
 		//<![CDATA[
-
-		/*
-				A "Reservation Date" example using two datePickers
-				--------------------------------------------------
-
-				* Functionality
-
-				1. When the page loads:
-						- We clear the value of the two inputs (to clear any values cached by the browser)
-						- We set an "onchange" event handler on the startDate input to call the setReservationDates function
-				2. When a start date is selected
-						- We set the low range of the endDate datePicker to be the start date the user has just selected
-						- If the endDate input already has a date stipulated and the date falls before the new start date then we clear the input's value
-
-				* Caveats (aren't there always)
-
-				- This demo has been written for dates that have NOT been split across three inputs
-
-		*/
 
 		function makeTwoChars(inp) {
 				return String(inp).length < 2 ? "0" + inp : inp;
